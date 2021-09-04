@@ -13,6 +13,6 @@ module.exports = {
     });
 
     response.writeHead(200, { 'Content-Type': 'application/json' });
-    response.end(JSON.stringify(users));
+    response.end(JSON.stringify(sortedUsers));
   }
 }
